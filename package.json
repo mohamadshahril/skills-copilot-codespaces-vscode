@@ -1,0 +1,19 @@
+{
+  "name": "skills-copilot-codespaces-vscode",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Minimal Node.js scaffold (hello CLI) added by AI agent",
+  "author": "",
+  "license": "MIT",
+  "main": "src/index.js",
+  "bin": {
+    "hello": "src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest --runInBand"
+  },
+  "devDependencies": {
+    "jest": "29.6.1"
+  }
+}
